@@ -6,7 +6,7 @@ const PublicNavbar = () => {
 <nav className="navbar is-transparent">
   <div className="navbar-brand">
     <a className="navbar-item" NavLink to="/Principal">
-      <img src="src/assets/images/omar_title.png" alt="Hola soy omar!" width={112} height={28} />
+      <img src="src/assets/images/omar_title_small.png" alt="Hola soy omar!" width={100} height={80} />
     </a>
     <div className="navbar-burger" data-target="navbarExampleTransparentExample">
       <span />
