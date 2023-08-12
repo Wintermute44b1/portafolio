@@ -12,7 +12,7 @@ import Me from "../pages/Me";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Principal from "../pages/Principal";
-
+import Projects from "../pages/Projects";
 
 const AppRouter = () => {
 
@@ -25,6 +25,8 @@ const AppRouter = () => {
           <Route path="/Me" element={<Me />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Projects" element={<Projects />} />
+
 
 
           <Route path="/*" element={<Navigate to="/" replace />} />
