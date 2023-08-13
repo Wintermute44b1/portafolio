@@ -19,7 +19,7 @@ const Me = () => {
   <div className="message-body">
    <strong className='subtitle is-1'>Mi nombre es Omar</strong> 
    <div className='content is-medium'>
-   <p>aqui podras encontrar los proyectos que he realizado en el Bootcamp Ucamp de desarrollo web fullstack 16, algunos estan en un <strong><p className='is-italic'> estado de Work in progress</p></strong> eso significa
+   <p>aqui podras encontrar los proyectos que he realizado en el Bootcamp Ucamp de desarrollo web fullstack 16, algunos estan en un <strong><p className='is-italic'> estado de Work in progress.</p></strong> eso significa
    que aun estoy puliendolos y agreando nuevas funcionalidades. No olvides visitar la pagina de Contact si tienes alguna recomendacion para mi! </p>
    </div>
   </div>
