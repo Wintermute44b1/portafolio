@@ -83,7 +83,8 @@ const About = () => {
     </div>
     <p>Por mencionar algunas! </p>
     <p>Pero sigo aprendido mas cada dia, este portafolio esta por ejemplo construido en <strong>React</strong> con <strong>Bulma.io</strong> como libreria de CSS.</p>
-    <p>He estado viendo algunos videos sobre Ruby On Rails y me gustaria intentar aprenderlo tambien.</p>
+    <p>Considero que mi experiencia hasta el momento es relativamente mas fuerte en la parte front con CSS y React.</p>
+    <p>Me gustaria profundizar mas en NodeJS! Y tambien he revisado algunos detalles sobre <strong>Ruby On Rails</strong>, me parece algo interesante de aprender.</p>
 
   </div>
   

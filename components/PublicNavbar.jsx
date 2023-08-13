@@ -3,20 +3,20 @@ import { NavLink } from 'react-router-dom'
 
 const PublicNavbar = () => {
   return (
-<nav className="navbar is-transparent">
+<nav className="navbar" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
-    <a className="navbar-item" NavLink to="/Principal">
-      <img src="https://res.cloudinary.com/dsmkpezps/image/upload/v1691896213/portfolio/omar_title_small_hphgm8.png" alt="Hola soy omar!" width={100} height={80} />
+    <a className="navbar-item">
+    <img src="https://res.cloudinary.com/dsmkpezps/image/upload/v1691896213/portfolio/omar_title_small_hphgm8.png" alt="Hola soy omar!" width={100} height={80} />
     </a>
-    <div className="navbar-burger" data-target="navbarExampleTransparentExample">
-      <span />
-      <span />
-      <span />
-    </div>
+    <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true" />
+      <span aria-hidden="true" />
+      <span aria-hidden="true" />
+    </a>
   </div>
-  <div id="navbarExampleTransparentExample" className="navbar-menu">
+  <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-start">
-      <NavLink to="/Me"  className= "navbar-item"activeClassName="is-active">
+    <NavLink to="/Me"  className= "navbar-item"activeClassName="is-active">
         Me
       </NavLink>
       <NavLink to="/Projects" className= "navbar-item" activeClassName="is-active">
@@ -28,10 +28,6 @@ const PublicNavbar = () => {
       <NavLink to="/Contact" className= "navbar-item" activeClassName="is-active">
         Contact
       </NavLink>
-      
-    </div>
-    
-    <div className="navbar-end">
     </div>
   </div>
 </nav>
