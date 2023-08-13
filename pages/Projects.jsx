@@ -20,7 +20,7 @@ const Projects = () => {
     <p className="title">Landing Page: Fotokamera</p>
     <p className="subtitle">Landing page sencilla, creada con HTML y CSS.</p>
     <figure className="image is-4by3">
-      <img src="src/assets/images/fotokamera.png"  />
+      <img src="public/assets/images/fotokamera.png"  />
     </figure>
     <a href="https://wintermute44b1.github.io/fotokamera_landing/"className='subtitle'>Demo</a>
   </article>
@@ -28,7 +28,7 @@ const Projects = () => {
     <p className="title">CRUD Sencillo: Biblioteca</p>
     <p className="subtitle">Sistema sencillo para manejo de inventario, HTML,CSS y JS</p>
     <figure className="image is-4by3">
-      <img src="src/assets/images/biblioteca.png" />
+      <img src="public/assets/images/biblioteca.png" />
     </figure>
     <a href="https://wintermute44b1.github.io/crud_registro_libros/"className='subtitle'>Demo</a>
 
@@ -37,7 +37,7 @@ const Projects = () => {
     <p className="title">Consumo de API: Clima</p>
     <p className="subtitle">Proyecto en Equipo, consumo de una API externa.</p>
     <figure className="image is-4by3">
-      <img src="src/assets/images/clima.png" />
+      <img src="public/assets/images/clima.png" />
     </figure>
     <a href="https://64d83075f5a8af4f6c46d3b8--kaleidoscopic-malabi-f3dc51.netlify.app/"className='subtitle'>Demo</a>
   </article>  
@@ -61,7 +61,7 @@ const Projects = () => {
     <p className="title">E-commerce: El Panal</p>
     <p className="subtitle">React, MongoDB, NodeJS y consumo de APIs de una pasarela de pagos.</p>
     <figure className="image is-4by3">
-      <img src="src/assets/images/ecommerce.png" />
+      <img src="public/assets/images/ecommerce.png" />
     </figure>
     <a href="https://animated-fairy-907389.netlify.app/"className='subtitle'>Demo</a>
   </article>
@@ -69,7 +69,7 @@ const Projects = () => {
     <p className="title">Portafolio</p>
     <p className="subtitle">React y Bulma.io</p>
     <figure className="image is-4by3">
-      <img src="src/assets/images/portafolio.png" />
+      <img src="public/assets/images/portafolio.png" />
     </figure>
   </article>  
 </div>

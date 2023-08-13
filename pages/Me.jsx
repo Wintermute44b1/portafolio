@@ -9,7 +9,7 @@ const Me = () => {
   <div className='has-text-right'>
 <div className='level-right'>
 <figure className="image is-128x128">
-  <img className="is-rounded" src="src/assets/me.jpg" />
+  <img className="is-rounded" src="public/assets/images/me.jpg" />
   
 </figure>
 </div>
