@@ -6,7 +6,7 @@ const About = () => {
 <section class="hero is-success">
   <div class="hero-body">
     <p class="title">
-      Tecnologias
+      Tecnologias (｢• ω •)｢
     </p>
     <p class="subtitle">
       Que aprendi y puse en practica en este Bootcamp.

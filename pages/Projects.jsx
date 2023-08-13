@@ -6,10 +6,10 @@ const Projects = () => {
 <section className="hero is-dark">
   <div className="hero-body">
     <p className="title">
-      Proyectos
+      Proyectos |ω･)ﾉ
     </p>
     <p className="subtitle">
-      Proyectos hasta ahora.
+      Proyectos hasta ahora 
     </p>
   </div>
 </section>
