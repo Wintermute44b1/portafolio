@@ -11,7 +11,6 @@ import PublicNavbar from "../components/PublicNavbar";
 import Me from "../pages/Me";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
-import Principal from "../pages/Principal";
 import Projects from "../pages/Projects";
 
 const AppRouter = () => {
@@ -21,7 +20,7 @@ const AppRouter = () => {
       <PublicNavbar />
       <div className="container pt-5">
         <Routes>
-          <Route path="/" element={<Principal/>} />
+          <Route path="/" element={<Me/>} />
           <Route path="/Me" element={<Me />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
